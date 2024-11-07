@@ -14,7 +14,8 @@ Fresh Apples| Rotten Apples|  Fresh Bananas|  Rotten Bananas|  Fresh Oranges|  R
 **Dataset Preparation** 
 The dataset should be organized into training and testing sets. Each of these sets should contain subfolders for the fruit categories:
 
-freshapples/ rottenapples/ freshbanana/ rottenbanana/ freshoranges/ rottenoranges/ If you don't have a validation set, you can use the validation_split parameter when training the model to split your training data into training and validation subsets.
+freshapples/ rottenapples/ freshbanana/ rottenbanana/ freshoranges/ rottenoranges/  
+If you don't have a validation set, you can use the validation_split parameter when training the model to split your training data into training and validation subsets.
 
 **Model Training**
 The model is a Convolutional Neural Network (CNN) built using Keras. It consists of several convolutional, max pooling, and dropout layers to prevent overfitting.
